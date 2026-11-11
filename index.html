@@ -40,7 +40,7 @@
 
 <h1>Política de privacidad de WakeAgenda</h1>
 
-<p class="updated">Última actualización: 22 de octubre de 2026</p>
+<p class="updated">Última actualización: 11 de noviembre de 2026</p>
 
 <p>
 WakeAgenda es una aplicación gratuita para Android que integra funciones de agenda,
@@ -85,6 +85,8 @@ necesarios para obtener la información solicitada.
   <li>OpenStreetMap y Nominatim, para información geográfica y búsqueda de lugares.</li>
   <li>Servicios Overpass basados en OpenStreetMap, para consultar lugares y puntos de interés.</li>
   <li>Google Places, para determinadas búsquedas de lugares cercanos.</li>
+  <li>Photon (komoot), basado en OpenStreetMap, para sugerir direcciones mientras se escribe la ubicación de un evento. Se envía el texto escrito y, si se conoce, la posición aproximada de la ciudad del usuario para ordenar las sugerencias por cercanía.</li>
+  <li>El geocodificador del sistema Android, para completar direcciones y obtener la dirección de la ubicación actual cuando el usuario lo pide.</li>
 </ul>
 
 <p>
@@ -101,6 +103,15 @@ La versión gratuita de WakeAgenda puede mostrar publicidad mediante Google AdMo
 </p>
 
 <p>
+Para aumentar la calidad de los anuncios, AdMob utiliza mediación: además de Google,
+otras redes publicitarias pueden pujar por mostrar anuncios en la aplicación. Estas redes
+son Meta Audience Network, AppLovin y Unity Ads. Cada una puede tratar los datos
+mencionados a continuación (identificadores publicitarios, dirección IP, interacciones
+con los anuncios e información técnica del dispositivo) según su propia política de
+privacidad. Si eres Premium, no se muestran anuncios ni se inicia ninguna de estas redes.
+</p>
+
+<p>
 Google Mobile Ads puede tratar información relacionada con el dispositivo y el uso
 de la aplicación, como identificadores del dispositivo o publicitarios, dirección IP,
 interacciones con la aplicación e información técnica o de diagnóstico. Estos datos
@@ -110,7 +121,8 @@ pueden utilizarse para proporcionar publicidad, medición, análisis y prevenci�
 <p>
 Cuando sea legalmente necesario, especialmente en el Espacio Económico Europeo,
 la aplicación podrá solicitar al usuario las opciones o consentimientos aplicables
-a la publicidad y al tratamiento de datos.
+a la publicidad y al tratamiento de datos. Puedes cambiar o retirar tu consentimiento
+en cualquier momento desde Más &gt; Privacidad y anuncios.
 </p>
 
 <h2>4. WakeAgenda Premium</h2>
@@ -141,7 +153,24 @@ WakeAgenda no utiliza un servidor propio para crear cuentas de usuario ni para
 almacenar de forma centralizada la agenda personal del usuario.
 </p>
 
-<h2>6. Radio, televisión y fuentes externas</h2>
+<h2>6. Dictado por voz</h2>
+
+<p>
+Al pulsar el botón del micrófono en el título o la descripción de un evento, el nombre
+de una alarma o la dirección de un evento, WakeAgenda abre el cuadro de reconocimiento
+de voz del sistema Android. Quien oye y procesa el audio es el servicio de reconocimiento
+de voz instalado en el dispositivo (normalmente el de Google), no WakeAgenda: la
+aplicación no solicita el permiso de micrófono, no graba audio y solo recibe el texto
+resultante, que se escribe en el campo correspondiente.
+</p>
+
+<p>
+Según el dispositivo y su configuración, el audio puede enviarse a los servidores del
+proveedor del reconocimiento de voz, que lo trata conforme a su propia política de
+privacidad. El usuario puede escribir el texto a mano en lugar de dictarlo.
+</p>
+
+<h2>7. Radio, televisión y fuentes externas</h2>
 
 <p>
 WakeAgenda puede facilitar el acceso a contenidos, emisoras, canales o información
@@ -159,7 +188,7 @@ Al acceder a contenido proporcionado por un servicio externo, dicho proveedor pu
 aplicar sus propias condiciones y políticas de privacidad.
 </p>
 
-<h2>7. Servicios de terceros</h2>
+<h2>8. Servicios de terceros</h2>
 
 <p>
 WakeAgenda depende de servicios y tecnologías proporcionados por terceros para
@@ -169,9 +198,13 @@ algunas de sus funciones. Entre ellos pueden encontrarse:
 <ul>
   <li>Google Play y Google Play Billing.</li>
   <li>Google AdMob / Google Mobile Ads.</li>
+  <li>Redes de mediación de AdMob: Meta Audience Network, AppLovin y Unity Ads.</li>
   <li>Google Places.</li>
   <li>Open-Meteo.</li>
   <li>OpenStreetMap, Nominatim y servicios Overpass.</li>
+  <li>Photon (komoot).</li>
+  <li>Servicio de reconocimiento de voz del dispositivo (normalmente Google), solo cuando el usuario usa el botón del micrófono.</li>
+  <li>Aplicaciones de mapas instaladas (Google Maps, Waze u otras): solo cuando el usuario pulsa «Ir», WakeAgenda les pasa la dirección del evento para mostrar la ruta.</li>
   <li>Fuentes externas utilizadas para información o acceso a radio y televisión.</li>
 </ul>
 
@@ -180,7 +213,7 @@ Cada proveedor puede tratar determinados datos de acuerdo con sus propias polít
 de privacidad y condiciones de servicio.
 </p>
 
-<h2>8. Control del usuario</h2>
+<h2>9. Control del usuario</h2>
 
 <p>El usuario puede, según las funciones disponibles en su dispositivo:</p>
 
@@ -192,14 +225,14 @@ de privacidad y condiciones de servicio.
   <li>Desinstalar WakeAgenda y eliminar los datos locales asociados a la aplicación mediante las opciones proporcionadas por Android.</li>
 </ul>
 
-<h2>9. Menores</h2>
+<h2>10. Menores</h2>
 
 <p>
 WakeAgenda no está diseñada específicamente como un servicio dirigido a menores
 ni ofrece funciones sociales, mensajería entre usuarios o creación de perfiles públicos.
 </p>
 
-<h2>10. Seguridad</h2>
+<h2>11. Seguridad</h2>
 
 <p>
 WakeAgenda utiliza las funcionalidades de seguridad proporcionadas por Android,
@@ -207,7 +240,8 @@ Google Play y los servicios externos integrados. Las comunicaciones con los serv
 externos utilizados por la aplicación se realizan mediante conexiones de red seguras
 cuando el proveedor correspondiente las ofrece.
 </p>
-<h2>11. Conservación y eliminación de datos</h2>
+
+<h2>12. Conservación y eliminación de datos</h2>
 
 <p>
 WakeAgenda no utiliza un servidor propio para almacenar de forma centralizada
@@ -227,7 +261,7 @@ los ajustes de Android o desinstalando WakeAgenda.
 
 <p>
 La información tratada por servicios externos utilizados por WakeAgenda, como
-Google Play, Google AdMob, Google Places, Open-Meteo u OpenStreetMap, está sujeta
+Google Play, Google AdMob y sus redes de mediación, Google Places, Open-Meteo u OpenStreetMap, está sujeta
 también a las políticas de conservación y eliminación de esos proveedores.
 </p>
 
@@ -236,7 +270,7 @@ Si el usuario necesita realizar una consulta relacionada con sus datos o con est
 política de privacidad, puede contactar mediante
 <a href="mailto:pablo.prieto.recio@gmail.com">pablo.prieto.recio@gmail.com</a>.
 </p>
-<h2>12. Cambios en esta política</h2>
+<h2>13. Cambios en esta política</h2>
 
 <p>
 Esta política de privacidad puede actualizarse cuando cambien las funciones de
@@ -244,7 +278,7 @@ WakeAgenda, los servicios externos utilizados o los requisitos legales y de
 Google Play. La fecha de la última actualización aparecerá al principio de esta página.
 </p>
 
-<h2>13. Contacto</h2>
+<h2>14. Contacto</h2>
 
 <p>
 Para consultas relacionadas con la privacidad o el tratamiento de datos en WakeAgenda:
